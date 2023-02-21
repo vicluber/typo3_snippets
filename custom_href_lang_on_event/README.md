@@ -1,3 +1,8 @@
+# Service implementation example
+
+## Including helper
+
+```
 services:
   EffectiveWorld\Amixon\HrefLang\EventListener\OwnHrefLang:
     tags:
@@ -5,8 +10,11 @@ services:
         identifier: 'my-ext/ownHrefLang'
         after: 'typo3-seo/hreflangGenerator'
         event: TYPO3\CMS\Frontend\Event\ModifyHrefLangTagsEvent
+```
 
+## Including helper
 
+```
 <?php
 namespace EffectiveWorld\Amixon\HrefLang\EventListener;
 
@@ -32,3 +40,4 @@ final class OwnHrefLang
       $event->addHrefLang('de-DE', 'https://example.org/de');
     }
 }
+```

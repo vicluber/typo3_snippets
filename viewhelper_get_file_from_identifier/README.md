@@ -1,6 +1,6 @@
-# The largest heading
-## The second largest heading
-###### The smallest heading
+# View helper example
+
+## This helper returns the file by identifier.
 
 A class that retrieves a file object by its identifier.
 

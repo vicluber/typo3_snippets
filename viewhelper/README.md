@@ -1,6 +1,7 @@
-# The largest heading
-## The second largest heading
-###### The smallest heading
+# View helper example
+## Including helper
+## Calling helper
+## Defining helper
 
 Viewhelper inline inclusion in fluid. After this you can call the helper as in the next example.
 ```
